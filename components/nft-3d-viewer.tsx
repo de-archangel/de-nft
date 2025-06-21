@@ -47,7 +47,7 @@ function ErrorFallback({ onRetry }: { onRetry: () => void }) {
       <div className="flex flex-col items-center justify-center text-red-400 bg-black/80 p-6 rounded-2xl backdrop-blur-sm border border-red-500/20">
         <AlertCircle className="w-12 h-12 mb-4" />
         <p className="text-lg font-semibold mb-2">3D model failed to load</p>
-        <p className="text-sm text-red-300 mb-4">The 3D model couldn't be displayed</p>
+        <p className="text-sm text-red-300 mb-4">The 3D model couldn&apos;t be displayed</p>
         <Button
           size="sm"
           variant="outline"
@@ -98,7 +98,7 @@ export function NFT3DViewer({ modelUrl }: NFT3DViewerProps) {
         <div className="text-center text-white/60 p-8">
           <AlertCircle className="w-16 h-16 mx-auto mb-4 text-red-400" />
           <h3 className="text-xl font-semibold mb-2">3D Model Unavailable</h3>
-          <p className="mb-4 text-white/40">The 3D model couldn't be loaded</p>
+          <p className="mb-4 text-white/40">The 3D model couldn&apos;t be loaded</p>
           <Button
             size="sm"
             variant="outline"

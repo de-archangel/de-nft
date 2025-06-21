@@ -101,7 +101,7 @@ export default function CollectionPage() {
             <div className="text-center">
               <div className="text-6xl mb-4">😕</div>
               <h1 className="text-white text-3xl font-bold mb-4">Collection Not Found</h1>
-              <p className="text-white/60 text-lg">The collection you're looking for doesn't exist.</p>
+              <p className="text-white/60 text-lg">The collection you are looking for doesn&apos;t exist.</p>
             </div>
           </div>
         </div>
